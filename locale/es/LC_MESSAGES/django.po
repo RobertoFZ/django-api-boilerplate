@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-11 06:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: django_api/api_v1/models.py:31
+msgid "email address"
+msgstr ""
+
+#: django_api/api_v1/serializers/users.py:58
+#: django_api/api_v1/serializers/users.py:67
+#, python-format
+msgid "El correo %(email)s ya se encuentra en uso"
+msgstr ""
+
+#: django_api/api_v1/views/auth.py:42
+msgid "Correo o contraseña incorrecta"
+msgstr ""
+
+#: django_api/api_v1/views/location_zones.py:35
+msgid "No tienes permisos para realizar esta acción"
+msgstr ""
+
+#: django_api/api_v1/views/location_zones.py:44
+msgid "Debes proporcionar los vértices de la zona"
+msgstr ""
+
+#: django_api/api_v1/views/location_zones.py:52
+msgid "Debes proporcionar al menos 3 vértices de la zona"
+msgstr ""
+
+#: django_api/api_v1/views/location_zones.py:70
+msgid "Ocurrió un error al almacenar uno de los vértices de la zona"
+msgstr ""
+
+#: django_api/api_v1/views/location_zones.py:78
+msgid "Error al crear la zona"
+msgstr ""
+
+#: django_api/api_v1/views/location_zones.py:94
+#: django_api/api_v1/views/location_zones.py:112
+#: django_api/api_v1/views/location_zones.py:141
+msgid "Zona no encontrada"
+msgstr ""
+
+#: django_api/api_v1/views/location_zones.py:103
+#: django_api/api_v1/views/location_zones.py:132
+#: django_api/api_v1/views/location_zones.py:151
+#: django_api/api_v1/views/locations.py:91
+#: django_api/api_v1/views/users.py:63 django_api/api_v1/views/users.py:97
+#: django_api/api_v1/views/users.py:140
+msgid "No tienes permisos para realizar está acción."
+msgstr ""
+
+#: django_api/api_v1/views/location_zones.py:125
+msgid "Error al actualizar la zona"
+msgstr ""
+
+#: django_api/api_v1/views/locations.py:31
+msgid ""
+"Se debe indicar los valores 'from' y 'to' para hacer el filtrado por fecha"
+msgstr ""
+
+#: django_api/api_v1/views/locations.py:46
+msgid "La fecha de fin no puede ser menor a la fecha de inicio"
+msgstr ""
+
+#: django_api/api_v1/views/locations.py:66
+msgid "Error al crear la ubicación"
+msgstr ""
+
+#: django_api/api_v1/views/locations.py:82
+msgid "Ubicación no encontrada"
+msgstr ""
+
+#: django_api/api_v1/views/users.py:36
+msgid "Error al crear al usuario"
+msgstr ""
+
+#: django_api/api_v1/views/users.py:53 django_api/api_v1/views/users.py:72
+#: django_api/api_v1/views/users.py:112
+msgid "Usuario no encontrado"
+msgstr ""
+
+#: django_api/api_v1/views/users.py:90
+msgid "Error al actualizar al usuario"
+msgstr ""
+
+#: django_api/api_v1/views/users.py:135
+msgid "La contraseña actual es inválida."
+msgstr ""
+
+#: django_api/api_v1/views/validations.py:29
+msgid "Debes indicar el ID de la zona y la coordenada a validar"
+msgstr ""
+
+#: django_api/api_v1/views/validations.py:41
+msgid "No se encontró la zona indicada"
+msgstr ""
+
+#: django_api/api_v1/views/validations.py:56
+msgid "La coordenada indicada es inválida"
+msgstr ""
+
+#: django_api/settings.py:144
+msgid "Español"
+msgstr ""
+
+#: django_api/settings.py:145
+msgid "Inglés"
+msgstr ""
